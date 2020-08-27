@@ -164,7 +164,9 @@ INSTAGRAM logo -->
                 });
                 
                 $(document).ready(function(){
-                    location.reload();
+                    if(document.location.hash){
+                        window.location = "#loaded";
+                    }
                 });
 
             </script>
