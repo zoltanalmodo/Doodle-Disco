@@ -167,9 +167,12 @@ INSTAGRAM logo -->
                 
                 
 function myFunction() {
-    alert("Image loaded: " + document.getElementById("W_001_1.jpg").complete);
-    alert("Image loaded: " + document.getElementById("W_001_2.jpg").complete);
-    alert("Image loaded: " + document.getElementById("W_001_3.jpg").complete);
+    while (document.getElementById("W_001_1.jpg").complete === false
+     && document.getElementById("W_001_2.jpg").complete === false
+     && document.getElementById("W_001_3.jpg").complete === false) {
+         return location = location;
+     };
+
 }
       
 
