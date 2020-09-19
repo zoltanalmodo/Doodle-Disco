@@ -10,7 +10,9 @@ http://flickity.metafizzy.co
   }
 .gallery-cell-100 {
   position: relative;
-  width: 100%;
+  width: 25%;
+  padding-left: 62.50%;
+  padding-right: 62.50%;
   height: auto;
   }
 .gallery-cell-66 {
@@ -31,10 +33,16 @@ http://flickity.metafizzy.co
 @media screen and ( max-width: 768px ) {
 /* disable Flickity for small devices */
   .flickity-gallery:after {
-    content: '';
+    content: 'flickity';
+    display: none;
     }
   .flickity-gallery {
     width: 100%;
+    height: auto;
+    }
+  .gallery-cell-100 {
+    position: relative;
+    width: 75%;
     height: auto;
     }
   .gallery-cell-66 {
