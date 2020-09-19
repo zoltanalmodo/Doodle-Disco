@@ -374,7 +374,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX      max width 1200 px  
 		max-width: 100%;
 		background: #fff;
 		text-decoration: none;
-		overflow: scroll;
+		overflow: hidden;
 	}
 /* =================================================================================
 								TYPE SETTINGS (START)
@@ -465,7 +465,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX      max width 600 px   
 		max-width: 100%;
 		background: #fff;
 		text-decoration: none;
-		overflow: scroll;
+		overflow: hidden;
 	}
 /* =================================================================================
 								TYPE SETTINGS (START)
@@ -645,7 +645,8 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX      max width 600 px   
 	.banner {
 		max-width: 100%;
 		height: 100%;
-		margin-bottom: 62px
+		margin-bottom: 62px;
+		overflow: hidden;
 	}
 /* =================================================================================
 									PROJECTS PAGE (START)
